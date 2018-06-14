@@ -2,8 +2,57 @@
 
 body {
     width: 100%;
-    padding: 20px 20px 20px 20px;
+    padding: 0px 20px 0px 20px;
     overflow-wrap: normal;
+}
+
+#title-bar {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    background-color: #fff;
+    font-family: 'Overpass';
+    font-size: 75pt;
+}
+
+#main-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff6060;
+}
+
+/*
+#main-navbar li {
+    float: left;
+}
+*/
+
+#main-navbar li a {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    display: block;
+    color: #fff;
+    font-family: 'Overpass', sans-serif;
+    padding: 0px 40px 0px 20px;
+    text-decoration: none;
+}
+
+#main-navbar .site-links {
+    font-size: 16pt;
+    font-style: bold;
+    float: right;
+}
+
+#main-navbar #site-title {
+    color: #fff;
+    font-size: 40pt;
+    font-family: 'Titillium Web', sans-serif;
+    font-style: bold;
+    text-shadow: 4px 4px #7a7a7a;
+    float: left;
 }
 
 h1 {
