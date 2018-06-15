@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass|Open+Sans');
-
 body {
     width: 100%;
-    padding: 0px 20px 0px 20px;
-    overflow-wrap: normal;
+    margin: 0;
 }
 
 #title-bar {
@@ -15,44 +13,51 @@ body {
     font-size: 75pt;
 }
 
-#main-navbar ul {
+#navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #ff6060;
+    text-align: center;
 }
 
 /*
-#main-navbar li {
+#navbar li {
     float: left;
 }
 */
 
-#main-navbar li a {
-    text-align: center;
+#navbar li a {
     vertical-align: middle;
     line-height: 60px;
-    display: block;
+    display: inline-block;
     color: #fff;
     font-family: 'Overpass', sans-serif;
-    padding: 0px 40px 0px 20px;
+    /* padding: 0px 40px 0px 20px; */
     text-decoration: none;
 }
 
-#main-navbar .site-links {
+#navbar .site-links {
     font-size: 16pt;
-    font-style: bold;
-    float: right;
 }
 
-#main-navbar #site-title {
+/*
+
+#navbar #site-title {
     color: #fff;
     font-size: 40pt;
     font-family: 'Titillium Web', sans-serif;
     font-style: bold;
     text-shadow: 4px 4px #7a7a7a;
     float: left;
+}
+
+*/
+
+#main-body {
+    padding: 0px 20px 0px 20px;
+    overflow-wrap: normal;
 }
 
 h1 {
