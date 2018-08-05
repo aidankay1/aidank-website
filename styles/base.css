@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass|Open+Sans');
+body {
+    width: 100%;
+    margin: 0;
+}
+
+#title-bar {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    background-color: #fff;
+    font-family: 'Overpass';
+    font-size: 75pt;
+    text-transform: uppercase;
+    padding: 30px 0px 10px 0px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff6060;
+    text-align: center;
+}
+
+
+#navbar li {
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+
+
+#navbar li a {
+    vertical-align: middle;
+    line-height: 60px;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Overpass', sans-serif;
+    /* padding: 0px 40px 0px 20px; */
+    text-decoration: none;
+}
+
+#navbar .site-links {
+    font-size: 16pt;
+}
