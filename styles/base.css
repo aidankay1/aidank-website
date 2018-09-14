@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+a {
+    color: #57abd5;
+}
+
 #title-bar {
     text-align: center;
     vertical-align: middle;
