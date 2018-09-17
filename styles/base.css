@@ -9,6 +9,14 @@ a {
     color: #57abd5;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Overpass', 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', 'Bookman', sans-serif;
+}
+
 #title-bar {
     text-align: center;
     vertical-align: middle;
