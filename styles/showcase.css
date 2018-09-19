@@ -1,10 +1,5 @@
 @import 'base.css';
 
-#main-body {
-    padding: 0px 20px 0px 20px;
-    overflow-wrap: normal;
-}
-
 h3 {
     font-size: 20pt;
 }

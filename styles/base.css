@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Overpass', 'Trebuchet MS', sans-serif;
 }
 
-p {
+p, li {
     font-family: 'Open Sans', 'Bookman', sans-serif;
 }
 
@@ -50,10 +50,14 @@ p {
     display: inline-block;
     color: #fff;
     font-family: 'Overpass', sans-serif;
-    /* padding: 0px 40px 0px 20px; */
     text-decoration: none;
 }
 
 #navbar .site-links {
     font-size: 16pt;
+}
+
+.main-body {
+    padding: 0px 20px 0px 20px;
+    overflow-wrap: normal;
 }
