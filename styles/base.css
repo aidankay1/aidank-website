@@ -30,7 +30,7 @@ p, li {
     font-family: 'Overpass';
     font-size: 75pt;
     text-transform: uppercase;
-    padding: 30px 0px 10px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 #navbar ul {
@@ -63,7 +63,7 @@ p, li {
 }
 
 #navbar #ext-link {
-    color: #333;
+    color: #000;
 }
 
 .main-body {
