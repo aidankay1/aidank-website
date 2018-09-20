@@ -19,6 +19,7 @@ h1 {
 
 p, li {
     font-family: 'Open Sans', 'Bookman', sans-serif;
+    font-size: 12pt;
 }
 
 #title-bar {
@@ -59,6 +60,10 @@ p, li {
 
 #navbar .site-links {
     font-size: 16pt;
+}
+
+#navbar #ext-link {
+    color: #333;
 }
 
 .main-body {
